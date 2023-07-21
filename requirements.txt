@@ -1,0 +1,7 @@
+argparse
+numpy
+matplotlib
+Bio 
+pylab-sdk
+pandas
+scipy
