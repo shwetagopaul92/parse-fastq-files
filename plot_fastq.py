@@ -4,7 +4,6 @@ import os
 import argparse
 import math
 import pylab as plt
-import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 import matplotlib.patches as patches
@@ -42,6 +41,7 @@ def plot_fastq_qualities(fastqfile, axis=None, limit=10000):
     axis.set_ylim((0,40))
     axis.set_title('quality score')
     plt.show() 
+    plt.savefig()
     return
 
 def main():

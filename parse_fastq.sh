@@ -25,6 +25,7 @@ grep '^@M00' $read2 | cut -d : -f 10 | sort | head -n 1 >> report.txt
 # find library type
 echo 'Nextera' >> report.txt 
 
+
 # plot fastq file
-python plot_fastq.py $read1
-python plot_fastq.py $read2
+python3 plot_fastq.py $read1
+python3 plot_fastq.py $read2
